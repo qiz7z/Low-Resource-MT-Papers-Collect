@@ -1,10 +1,21 @@
-# 图片目录
+# 📊 图片目录
 
-请将论文相关的截图、图表等图片文件放在此目录下。
+本目录包含从论文 PDF 中截取的图表，用于中文笔记中引用。
 
-建议的图片命名规范：
-- `pipeline-overview.png` — 混合翻译流水线架构图（对应论文图 1）
-- `safety-net-effect.png` — 安全兜底效应示例（对应论文表 7）
-- `final-results.png` — 最终系统性能对比（对应论文表 2）
+## 文件列表
 
-> 💡 在 Typora 中编辑笔记时，直接粘贴图片到 `README.md`，Typora 会自动将图片保存到此目录。
+| 文件名 | 对应内容 | 说明 |
+|--------|---------|------|
+| `pipeline-overview.png` | Figure 1 | 混合翻译流水线架构图 |
+| `context-volume-impact.png` | Figure 2 | 上下文规模对性能的影响 |
+| `performance-convergence.png` | Figure 3 | 检索策略性能趋同对比 |
+| `lexicon-retrieval.png` | Figure 4 | 词典检索性能曲线 |
+| `baseline-performance.png` | Table 1 | 基线性能对比 |
+| `final-results.png` | Table 2 | 最终系统性能对比 |
+| `safety-net-effect.png` | Table 7 | NMT 失败案例与 LLM 修复效果 |
+
+## 图片规格
+
+- 渲染分辨率：3x（高清晰度）
+- 格式：PNG
+- 来源：PDF 原文直接截取，无压缩损失
