@@ -72,7 +72,9 @@ Contributions
 
 如图 1 所示，该翻译流水线包含两个不同阶段：
 
-![image-20260824092050953](C:/Users/liuqi/AppData/Roaming/Typora/typora-user-images/image-20260824092050953.png)
+> 📌 **图片待补充**：请将对应的截图保存到 `images/` 目录下，文件名为 `pipeline-overview.png`。
+>
+> ![图1：混合翻译流水线](images/pipeline-overview.png)
 
 **阶段 1：神经机器翻译初稿生成** 我们在域内（《新约》）语料上对 3.2 节介绍的神经机器翻译模型进行微调，生成初始翻译假设 \(y_{nmt}\)。我们沿用 eBible 评测基准给出的最优超参数（Akerman 等人，2023），具体细节见附录 D。
 
@@ -125,7 +127,9 @@ Contributions
 
 直接翻译的效果很差（spBLEU 为 2.98），说明该模型本身不具备达奥语的先验知识。但混合后编辑框架的性能显著优于 NMT 基线（5 样本条件下 spBLEU 提升 4.88）。定性分析表明，大模型起到了 “安全兜底” 的作用。NMT 模型在处理未登录词时经常出现灾难性错误，例如陷入无限重复循环。大模型能够稳定识别并截断这类循环，输出通顺连贯的文本（见表 7）。
 
-<img src="C:/Users/liuqi/AppData/Roaming/Typora/typora-user-images/image-20260824094251906.png" alt="image-20260824094251906" style="zoom:50%;" />
+> 📌 **图片待补充**：请将对应的截图保存到 `images/` 目录下，文件名为 `safety-net-effect.png`。
+>
+> ![表：安全兜底效应](images/safety-net-effect.png)
 
 ## 5.2 检索策略分析
 
@@ -153,7 +157,9 @@ Contributions
 
 我们的最终系统融合最优平行句检索策略 —— 词级模糊匹配（\(n=10\)，有效\(k≈137\)）与完整双语词典。如表 2 所示，该组合实现了整体最高的翻译精度。
 
-<img src="C:/Users/liuqi/AppData/Roaming/Typora/typora-user-images/image-20260824095724436.png" alt="image-20260824095724436" style="zoom:67%;" />
+> 📌 **图片待补充**：请将对应的截图保存到 `images/` 目录下，文件名为 `final-results.png`。
+>
+> ![表：最终系统性能](images/final-results.png)
 
 最终模型取得 35.21 的 chrF++ 分数，几乎追平神经机器翻译模型在域内测试集上的性能（chrF++ 为 36.17）。这表明，本文基于检索增强生成的后编辑框架成功挽回了因域偏移造成的性能损失。
 
