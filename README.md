@@ -9,7 +9,6 @@
 | 年份 | 会议 | 论文 | 关键词 | 笔记 |
 |:---:|:---:|------|:------:|:----:|
 | 2026 | LoResMT | [Context Volume Drives Performance: Tackling Domain Shift in Extremely Low-Resource Translation via RAG](papers/RAG-for-Low-Resource-MT/2026-loresmt-context-volume-dhao/paper.pdf) | 域偏移、RAG、后编辑、达奥语 | [中文笔记](papers/RAG-for-Low-Resource-MT/2026-loresmt-context-volume-dhao/README.md) |
-
 | 2026 | IJCNN (CCF-C) | [Retrieve, Refine, and Translate: LLM‑Based Translation for Low‑Resource Languages](<papers/RAG-for-Low-Resource-MT/2026-CCF-C-检索、优化与翻译：基于大语言模型的低资源语言翻译/ijcnn26_llm__mt_rag_agent_camera_ready.pdf>) | RAG、两阶段精炼、隐式/显式纠错、MQM 反馈 | [中文笔记](<papers/RAG-for-Low-Resource-MT/2026-CCF-C-检索、优化与翻译：基于大语言模型的低资源语言翻译/检索、优化与翻译：基于大语言模型的低资源语言翻译.md>) |
 
 <!-- 后续添加论文时，在此表格中追加行即可 -->
