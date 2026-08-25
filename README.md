@@ -10,6 +10,8 @@
 |:---:|:---:|------|:------:|:----:|
 | 2026 | LoResMT | [Context Volume Drives Performance: Tackling Domain Shift in Extremely Low-Resource Translation via RAG](papers/RAG-for-Low-Resource-MT/2026-loresmt-context-volume-dhao/paper.pdf) | 域偏移、RAG、后编辑、达奥语 | [中文笔记](papers/RAG-for-Low-Resource-MT/2026-loresmt-context-volume-dhao/README.md) |
 
+| 2026 | IJCNN (CCF-C) | [Retrieve, Refine, and Translate: LLM‑Based Translation for Low‑Resource Languages](<papers/RAG-for-Low-Resource-MT/2026-CCF-C-检索、优化与翻译：基于大语言模型的低资源语言翻译/ijcnn26_llm__mt_rag_agent_camera_ready.pdf>) | RAG、两阶段精炼、隐式/显式纠错、MQM 反馈 | [中文笔记](<papers/RAG-for-Low-Resource-MT/2026-CCF-C-检索、优化与翻译：基于大语言模型的低资源语言翻译/检索、优化与翻译：基于大语言模型的低资源语言翻译.md>) |
+
 <!-- 后续添加论文时，在此表格中追加行即可 -->
 
 ### 中国少数民族语言 NMT（Chinese Minority Languages）
@@ -31,7 +33,7 @@
 ├── README.md                          # 本文件：论文索引与说明
 ├── papers/                            # 论文存放目录
 │   ├── RAG-for-Low-Resource-MT/       # 检索增强生成相关
-│   │   └── 2026-loresmt-context-volume-dhao/
+│   │   ├── 2026-loresmt-context-volume-dhao/
 │   │       ├── paper.pdf              # 原文 PDF
 │   │       ├── README.md              # 中文阅读笔记/翻译
 │   │       └── images/                # 论文中的截图与图表
@@ -92,10 +94,13 @@ papers/Domain-Adaptation/
 
 | 标签 | 相关论文 |
 |------|---------|
-| `RAG` | Context Volume Drives Performance (2026) |
+| `RAG` | Context Volume Drives Performance (2026)；Retrieve, Refine, and Translate (2026) |
 | `域偏移` | Context Volume Drives Performance (2026) |
 | `后编辑` | Context Volume Drives Performance (2026) |
 | `圣经翻译` | Context Volume Drives Performance (2026) |
+| `译文精炼` | Retrieve, Refine, and Translate (2026) |
+| `MQM 反馈` | Retrieve, Refine, and Translate (2026) |
+| `迭代纠错` | Retrieve, Refine, and Translate (2026) |
 | `超低资源` | Context Volume Drives Performance (2026)；XLM-SWCM (2025) |
 | `大语言模型` | Uyghur LLM Adaptation (2025) |
 | `持续预训练` | Uyghur LLM Adaptation (2025) |
