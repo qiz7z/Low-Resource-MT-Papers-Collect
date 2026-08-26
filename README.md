@@ -10,6 +10,7 @@
 |:---:|:---:|------|:------:|:----:|
 | 2026 | LoResMT | [Context Volume Drives Performance: Tackling Domain Shift in Extremely Low-Resource Translation via RAG](papers/RAG-for-Low-Resource-MT/2026-loresmt-context-volume-dhao/paper.pdf) | 域偏移、RAG、后编辑、达奥语 | [中文笔记](papers/RAG-for-Low-Resource-MT/2026-loresmt-context-volume-dhao/README.md) |
 | 2026 | IJCNN (CCF-C) | [Retrieve, Refine, and Translate: LLM‑Based Translation for Low‑Resource Languages](<papers/RAG-for-Low-Resource-MT/2026-CCF-C-检索、优化与翻译：基于大语言模型的低资源语言翻译/ijcnn26_llm__mt_rag_agent_camera_ready.pdf>) | RAG、两阶段精炼、隐式/显式纠错、MQM 反馈 | [中文笔记](<papers/RAG-for-Low-Resource-MT/2026-CCF-C-检索、优化与翻译：基于大语言模型的低资源语言翻译/检索、优化与翻译：基于大语言模型的低资源语言翻译.md>) |
+| 2026 | LREC (CCF-B) | [Every Word Presented in Context: Syntactic Coverage as Objective for Low‑Resource MT with LLMs](<papers/RAG-for-Low-Resource-MT/2026-CCF-B-LREC在上下文语境中呈现每个词：将句法覆盖度作为大模型低资源机器翻译的优化目标/2026.lrec2026-1.694.pdf>) | 片段示例提示、句法覆盖度、拉迪恩语、小样本提示 | [中文笔记](<papers/RAG-for-Low-Resource-MT/2026-CCF-B-LREC在上下文语境中呈现每个词：将句法覆盖度作为大模型低资源机器翻译的优化目标/在上下文语境中呈现每个词：将句法覆盖度作为大模型低资源机器翻译的优化目标.md>) |
 
 <!-- 后续添加论文时，在此表格中追加行即可 -->
 
@@ -100,6 +101,10 @@ papers/Domain-Adaptation/
 | `译文精炼` | Retrieve, Refine, and Translate (2026) |
 | `MQM 反馈` | Retrieve, Refine, and Translate (2026) |
 | `迭代纠错` | Retrieve, Refine, and Translate (2026) |
+| `片段示例提示` | Every Word in Context (2026) |
+| `句法覆盖度` | Every Word in Context (2026) |
+| `小样本提示` | Every Word in Context (2026) |
+| `拉迪恩语` | Every Word in Context (2026) |
 | `超低资源` | Context Volume Drives Performance (2026)；XLM-SWCM (2025) |
 | `大语言模型` | Uyghur LLM Adaptation (2025) |
 | `持续预训练` | Uyghur LLM Adaptation (2025) |
