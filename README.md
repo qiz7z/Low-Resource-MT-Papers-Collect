@@ -13,6 +13,7 @@
 | 2026 | LREC (CCF-B) | [Every Word Presented in Context: Syntactic Coverage as Objective for Low‑Resource MT with LLMs 🔥](<papers/RAG-for-Low-Resource-MT/2026-CCF-B-LREC在上下文语境中呈现每个词：将句法覆盖度作为大模型低资源机器翻译的优化目标/2026.lrec2026-1.694.pdf>) | 片段示例提示、句法覆盖度、拉迪恩语、小样本提示 | [中文笔记](<papers/RAG-for-Low-Resource-MT/2026-CCF-B-LREC在上下文语境中呈现每个词：将句法覆盖度作为大模型低资源机器翻译的优化目标/在上下文语境中呈现每个词：将句法覆盖度作为大模型低资源机器翻译的优化目标.md>) |
 | 2025 | BT | [Leveraging Retrieval-Augmented Generation for Machine Translation in Low-Resource Indian Languages](<papers/RAG-for-Low-Resource-MT/2025-BT-SFT+RAG/Leveraging_retrieval-augmented_generation_for_machine_translation_in_low-resource_Indian_languages(科研通-ablesci.com).pdf>) | RAG、回译、BM25、IndicBART、博杰普尔语 | [中文笔记](<papers/RAG-for-Low-Resource-MT/2025-BT-SFT+RAG/利用检索增强生成技术实现印度低资源语言的机器翻译.md>) |
 | 2026 | arXiv | [Reasoning about In-Context Samples for Machine Translation](<papers/RAG-for-Low-Resource-MT/2026-arxiv-高资源-面向机器翻译的上下文样本推理/Reasoning about In-Context Samples for Machine-Translation.pdf>) | 思维链推理、片段提取、翻译记忆库、Qwen3 | [中文笔记](<papers/RAG-for-Low-Resource-MT/2026-arxiv-高资源-面向机器翻译的上下文样本推理/面向机器翻译的上下文样本推理.md>) |
+| 2026 | WMT | [BM25-Augmented Many-Shot Translation for Low-Resource North-Eastern Indian Languages](<papers/RAG-for-Low-Resource-MT/2026-面向印度东北低资源语言的 BM25 增强多示例翻译arxiv-/面向印度东北低资源语言的 BM25 增强多示例翻译.md>) | BM25 检索、Gemini 2.5 Flash、多示例翻译、印度东北语言 | [中文笔记](<papers/RAG-for-Low-Resource-MT/2026-面向印度东北低资源语言的 BM25 增强多示例翻译arxiv-/面向印度东北低资源语言的 BM25 增强多示例翻译.md>) |
 
 <!-- 后续添加论文时，在此表格中追加行即可 -->
 
@@ -34,6 +35,12 @@
 |:---:|:---:|------|:------:|:----:|
 | 2025 | COLING (CCF-B) | [大语言模型的低资源语言拓展与翻译能力增强——以维吾尔语为研究对象](<papers/维语/2025.coling-main.559大语言模型的低资源语言拓展与翻译能力增强 —— 以维吾尔语为研究对象/2025.coling-main.559.pdf>) | LLM 适配、持续预训练、DPOSE 偏好优化、维吾尔语 | [中文笔记](<papers/维语/2025.coling-main.559大语言模型的低资源语言拓展与翻译能力增强 —— 以维吾尔语为研究对象/大语言模型的低资源语言拓展与翻译能力增强 —— 以维吾尔语为研究对象.md>) |
 
+### 藏语（Tibetan）
+
+| 年份 | 会议 | 论文 | 关键词 | 笔记 |
+|:---:|:---:|------|:------:|:----:|
+| 2026 | ACL | [从精选数据到可扩展模型：面向藏语的稠密与混合专家大语言模型持续预训练](<papers/藏语/2026-ACL-moe-从精选数据到可扩展模型：面向藏语的稠密与混合专家大语言模型持续预训练/从精选数据到可扩展模型：面向藏语的稠密与混合专家大语言模型持续预训练.md>) | 持续预训练、MoE、藏语、Qwen2.5 | [中文笔记](<papers/藏语/2026-ACL-moe-从精选数据到可扩展模型：面向藏语的稠密与混合专家大语言模型持续预训练/从精选数据到可扩展模型：面向藏语的稠密与混合专家大语言模型持续预训练.md>) |
+
 ## 📂 目录结构
 
 ```
@@ -49,6 +56,8 @@
 │   │   └── 2025-acl-xlm-swcm/
 │   ├── 维语/                          # 维吾尔语相关研究
 │   │   └── 2025-coling-uyghur-llm/
+│   ├── 维语/                          # 维吾尔语相关研究
+│   ├── 藏语/                          # 藏语相关研究
 │   ├── Domain-Adaptation/             # 域自适应（待填充）
 │   ├── LLM-for-MT/                    # 大语言模型翻译（待填充）
 │   └── NMT-Basics/                    # 神经机器翻译基础（待填充）
@@ -66,6 +75,7 @@
 | `Domain-Adaptation/` | 域自适应、域泛化相关方法 |
 | `LLM-for-MT/` | 利用大语言模型（LLM）进行翻译的研究 |
 | `Data-Augmentation/` | 数据增强方法（回译、前向翻译、合成数据等） |
+| `藏语/` | 藏语大语言模型与机器翻译研究 |
 | `NMT-Basics/` | 神经机器翻译基础方法与综述 |
 
 > 💡 如果现有分类无法涵盖新论文，可以自行创建新的子目录。
@@ -124,6 +134,12 @@ papers/Domain-Adaptation/
 | `翻译不对称性` | Translation Asymmetry Romansh (2026) |
 | `罗曼什语` | Translation Asymmetry Romansh (2026) |
 | `数据增强` | Translation Asymmetry Romansh (2026) |
+| `BM25 检索` | BM25-Augmented Many-Shot Translation (2026) |
+| `多示例翻译` | BM25-Augmented Many-Shot Translation (2026) |
+| `印度东北语言` | BM25-Augmented Many-Shot Translation (2026) |
+| `MoE 混合专家` | 藏语稠密与混合专家大语言模型 (2026) |
+| `藏语` | 藏语稠密与混合专家大语言模型 (2026)；XLM-SWCM (2025) |
+| `Qwen2.5` | 藏语稠密与混合专家大语言模型 (2026) |
 | `超低资源` | Context Volume Drives Performance (2026)；XLM-SWCM (2025) |
 | `大语言模型` | Uyghur LLM Adaptation (2025) |
 | `持续预训练` | Uyghur LLM Adaptation (2025) |
