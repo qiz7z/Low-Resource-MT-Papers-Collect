@@ -10,7 +10,7 @@
 |:---:|:---:|------|:------:|:----:|
 | 2026 | LoResMT | [Context Volume Drives Performance: Tackling Domain Shift in Extremely Low-Resource Translation via RAG](papers/RAG-for-Low-Resource-MT/2026-loresmt-context-volume-dhao/paper.pdf) | 域偏移、RAG、后编辑、达奥语 | [中文笔记](papers/RAG-for-Low-Resource-MT/2026-loresmt-context-volume-dhao/README.md) |
 | 2026 | IJCNN (CCF-C) | [Retrieve, Refine, and Translate: LLM‑Based Translation for Low‑Resource Languages](<papers/RAG-for-Low-Resource-MT/2026-CCF-C-检索、优化与翻译：基于大语言模型的低资源语言翻译/ijcnn26_llm__mt_rag_agent_camera_ready.pdf>) | RAG、两阶段精炼、隐式/显式纠错、MQM 反馈 | [中文笔记](<papers/RAG-for-Low-Resource-MT/2026-CCF-C-检索、优化与翻译：基于大语言模型的低资源语言翻译/检索、优化与翻译：基于大语言模型的低资源语言翻译.md>) |
-| 2026 | LREC (CCF-B) | [Every Word Presented in Context: Syntactic Coverage as Objective for Low‑Resource MT with LLMs 🔥](<papers/RAG-for-Low-Resource-MT/2026-CCF-B-LREC在上下文语境中呈现每个词：将句法覆盖度作为大模型低资源机器翻译的优化目标/2026.lrec2026-1.694.pdf>) | 片段示例提示、句法覆盖度、拉迪恩语、小样本提示、关于未出现语言说法写作 | [中文笔记](<papers/RAG-for-Low-Resource-MT/2026-CCF-B-LREC在上下文语境中呈现每个词：将句法覆盖度作为大模型低资源机器翻译的优化目标/在上下文语境中呈现每个词：将句法覆盖度作为大模型低资源机器翻译的优化目标.md>) |
+| 2026 | LREC (CCF-B) | [Every Word Presented in Context: Syntactic Coverage as Objective for Low‑Resource MT with LLMs 🔥](<papers/RAG-for-Low-Resource-MT/2026-CCF-B-LREC在上下文语境中呈现每个词：将句法覆盖度作为大模型低资源机器翻译的优化目标/2026.lrec2026-1.694.pdf>) | 片段示例提示、句法覆盖度、拉迪恩语、小样本提示、<u>关于未出现语言说法写作</u> | [中文笔记](<papers/RAG-for-Low-Resource-MT/2026-CCF-B-LREC在上下文语境中呈现每个词：将句法覆盖度作为大模型低资源机器翻译的优化目标/在上下文语境中呈现每个词：将句法覆盖度作为大模型低资源机器翻译的优化目标.md>) |
 | 2025 | BT | [Leveraging Retrieval-Augmented Generation for Machine Translation in Low-Resource Indian Languages](<papers/RAG-for-Low-Resource-MT/2025-BT-SFT+RAG/Leveraging_retrieval-augmented_generation_for_machine_translation_in_low-resource_Indian_languages(科研通-ablesci.com).pdf>) | RAG、回译、BM25、IndicBART、博杰普尔语 | [中文笔记](<papers/RAG-for-Low-Resource-MT/2025-BT-SFT+RAG/利用检索增强生成技术实现印度低资源语言的机器翻译.md>) |
 | 2026 | arXiv | [Reasoning about In-Context Samples for Machine Translation](<papers/RAG-for-Low-Resource-MT/2026-arxiv-高资源-面向机器翻译的上下文样本推理/Reasoning about In-Context Samples for Machine-Translation.pdf>) | 思维链推理、片段提取、翻译记忆库、Qwen3 | [中文笔记](<papers/RAG-for-Low-Resource-MT/2026-arxiv-高资源-面向机器翻译的上下文样本推理/面向机器翻译的上下文样本推理.md>) |
 | 2026 | WMT | [BM25-Augmented Many-Shot Translation for Low-Resource North-Eastern Indian Languages](<papers/RAG-for-Low-Resource-MT/2026-面向印度东北低资源语言的 BM25 增强多示例翻译arxiv-/面向印度东北低资源语言的 BM25 增强多示例翻译.md>) | BM25 检索、Gemini 2.5 Flash、多示例翻译、印度东北语言 | [中文笔记](<papers/RAG-for-Low-Resource-MT/2026-面向印度东北低资源语言的 BM25 增强多示例翻译arxiv-/面向印度东北低资源语言的 BM25 增强多示例翻译.md>) |
@@ -124,7 +124,7 @@ papers/Domain-Adaptation/
 | `句法覆盖度` | Every Word in Context (2026) |
 | `小样本提示` | Every Word in Context (2026) |
 | `拉迪恩语` | Every Word in Context (2026) |
-| `关于未出现语言说法写作` | Every Word in Context (2026) |
+| `<u>关于未出现语言说法写作</u>` | Every Word in Context (2026) |
 | `回译` | Leveraging RAG for Indian MT (2025) |
 | `BM25` | Leveraging RAG for Indian MT (2025) |
 | `IndicBART` | Leveraging RAG for Indian MT (2025) |
