@@ -30,6 +30,12 @@
 |:---:|:---:|------|:------:|:----:|
 | 2025 | ACL | [多语言编码器的潜在能力远超你的认知：面向极低资源语言的权重共享预训练](papers/NMT-chinese-minority/2025-acl-多语言编码器的潜在能力远超你的认知：面向极低资源语言的权重共享预训练/2025.acl-long.893.pdf)（XLM-SWCM） | 权重共享、编码器拓展、藏语/维吾尔语/哈萨克语/蒙古语 | [中文笔记](papers/NMT-chinese-minority/2025-acl-多语言编码器的潜在能力远超你的认知：面向极低资源语言的权重共享预训练/多语言编码器的潜在能力远超你的认知：面向极低资源语言的权重共享预训练.md) |
 
+### 多语少民（Multilingual Minority）
+
+| 年份 | 会议 | 论文 | 关键词 | 笔记 |
+|:---:|:---:|------|:------:|:----:|
+| 2025 | 中科院4区 | [自反思增强上下文学习：面向中国少数民族语言的机器翻译性能提升](<papers/多语少民/2025-中科院4区-自反思增强上下文学习：面向中国少数民族语言的机器翻译性能提升/advpub_2025EDL8075.pdf>) | 自反思、ICL、维/藏/蒙-汉语翻译、BM25 | [中文笔记](<papers/多语少民/2025-中科院4区-自反思增强上下文学习：面向中国少数民族语言的机器翻译性能提升/自反思增强上下文学习：面向中国少数民族语言的机器翻译性能提升.md>) |
+
 ### 维吾尔语（Uyghur）
 
 | 年份 | 会议 | 论文 | 关键词 | 笔记 |
@@ -72,6 +78,7 @@
 |---------|------|
 | `RAG-for-Low-Resource-MT/` | 使用检索增强生成（RAG）技术辅助低资源翻译的研究 |
 | `NMT-chinese-minority/` | 中国少数民族语言（藏语、维吾尔语、哈萨克语、蒙古语等）机器翻译与文本生成 |
+| `多语少民/` | 多语种少数民族语言翻译与文本生成研究 |
 | `维语/` | 维吾尔语方向专题研究 |
 | `Domain-Adaptation/` | 域自适应、域泛化相关方法 |
 | `LLM-for-MT/` | 利用大语言模型（LLM）进行翻译的研究 |
@@ -149,6 +156,11 @@ papers/Domain-Adaptation/
 | `维吾尔语` | XLM-SWCM (2025)；Uyghur LLM Adaptation (2025) |
 | `中国少数民族语言` | XLM-SWCM (2025) |
 | `权重共享` | XLM-SWCM (2025) |
+| `自反思` | Self-Reflection ICL (2025) |
+| `ICL` | Self-Reflection ICL (2025) |
+| `维/藏/蒙-汉` | Self-Reflection ICL (2025) |
+| `BM25 检索` | Self-Reflection ICL (2025) |
+| `蒙古语` | Self-Reflection ICL (2025) |
 | `波斯语` | Advancing RAG for Persian (2025) |
 | `Sentence-BERT` | Advancing RAG for Persian (2025) |
 | `RAGAS` | Advancing RAG for Persian (2025) |
