@@ -27,3 +27,7 @@ Desktop.ini
 # 临时文件
 *.tmp
 *.bak
+
+# WorkBuddy / 工具缓存（含本地记忆，不上传）
+.workbuddy/
+.freebuff/
