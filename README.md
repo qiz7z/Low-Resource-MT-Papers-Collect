@@ -66,6 +66,7 @@
 │   ├── 维语/                          # 维吾尔语相关研究
 │   │   └── 2025-coling-uyghur-llm/
 │   ├── 藏语/                          # 藏语相关研究
+│   │   └── 2026-acl-moe-tibetan-cpt/
 │   ├── 腾讯HY/                        # 腾讯混元多语言翻译模型
 │   │   ├── 腾讯HY1.5/
 │   │   │   ├── HY‑MT1.5 技术报告.md
@@ -73,6 +74,10 @@
 │   │   └── 腾讯HY2.0/
 │   │       ├── HYMT2-2605.22064v2.pdf
 │   │       └── Hy‑MT2：面向真实场景的一套高速、高效、高性能多语言翻译模型.md
+│   ├── 多语少民/                       # 多语种少数民族语言研究
+│   │   └── 2025-zgrk-self-reflection-icl/
+│   ├── Data-Augmentation/             # 数据增强方法
+│   │   └── 2026-arxiv-translation-asymmetry-romansh/
 │   ├── Domain-Adaptation/             # 域自适应（待填充）
 │   ├── LLM-for-MT/                    # 大语言模型翻译（待填充）
 │   └── NMT-Basics/                    # 神经机器翻译基础（待填充）
