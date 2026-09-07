@@ -15,6 +15,8 @@
 | 2026 | arXiv | [Reasoning about In-Context Samples for Machine Translation](<papers/RAG-for-Low-Resource-MT/2026-arxiv-高资源-面向机器翻译的上下文样本推理/Reasoning about In-Context Samples for Machine-Translation.pdf>) | 思维链推理、片段提取、翻译记忆库、Qwen3 | [中文笔记](<papers/RAG-for-Low-Resource-MT/2026-arxiv-高资源-面向机器翻译的上下文样本推理/面向机器翻译的上下文样本推理.md>) |
 | 2026 | WMT | [BM25-Augmented Many-Shot Translation for Low-Resource North-Eastern Indian Languages](<papers/RAG-for-Low-Resource-MT/2026-面向印度东北低资源语言的 BM25 增强多示例翻译arxiv-/面向印度东北低资源语言的 BM25 增强多示例翻译.md>) | BM25 检索、Gemini 2.5 Flash、多示例翻译、印度东北语言 | [中文笔记](<papers/RAG-for-Low-Resource-MT/2026-面向印度东北低资源语言的 BM25 增强多示例翻译arxiv-/面向印度东北低资源语言的 BM25 增强多示例翻译.md>) |
 | 2025 | arXiv | [Advancing Retrieval-Augmented Generation For Persian: Development Of Language Models, Comprehensive Benchmarks, And Best Practices For Optimization 🔥](<papers/RAG-for-Low-Resource-MT/2025-arxiv-面向波斯语的检索增强生成技术进阶：语言模型开发、综合基准评测及优化最佳实践/2501.04858v1.pdf>) | RAG、波斯语、Sentence-BERT、RAGAS、文档摘要索引、<ins>embedding微调</ins> | [中文笔记](<papers/RAG-for-Low-Resource-MT/2025-arxiv-面向波斯语的检索增强生成技术进阶：语言模型开发、综合基准评测及优化最佳实践/面向波斯语的检索增强生成技术进阶：语言模型开发、综合基准评测及优化最佳实践.md>) |
+| 2024 | LREC-COLING (CCF-B) | [Low-Resource Machine Translation through Retrieval-Augmented LLM Prompting: A Study on the Mambai Language](<papers/RAG-for-Low-Resource-MT/2024.eurali-CCFB-基于检索增强大语言模型提示的低资源机器翻译 —— 以曼拜语为研究对象/2024.eurali-1.1.pdf>) | RAG、LLM 提示、词典注入、TF-IDF 检索、语义嵌入检索、曼拜语 | [中文笔记](<papers/RAG-for-Low-Resource-MT/2024.eurali-CCFB-基于检索增强大语言模型提示的低资源机器翻译 —— 以曼拜语为研究对象/基于检索增强大语言模型提示的低资源机器翻译 —— 以曼拜语为研究对象.md>) |
+
 
 <!-- 后续添加论文时，在此表格中追加行即可 -->
 
@@ -133,6 +135,10 @@ papers/Domain-Adaptation/
 | `小样本提示` | Every Word in Context (2026) |
 | `拉迪恩语` | Every Word in Context (2026) |
 | `<ins>关于未出现语言说法写作</ins>` | Every Word in Context (2026) |
+| `词典注入` | Mambai RAG Prompting (2024) |
+| `TF-IDF 检索` | Mambai RAG Prompting (2024) |
+| `语义嵌入检索` | Mambai RAG Prompting (2024) |
+| `曼拜语` | Mambai RAG Prompting (2024) |
 | `回译` | Leveraging RAG for Indian MT (2025) |
 | `BM25` | Leveraging RAG for Indian MT (2025) |
 | `IndicBART` | Leveraging RAG for Indian MT (2025) |
