@@ -50,6 +50,12 @@
 |:---:|:---:|------|:------:|:----:|
 | 2026 | ACL | [从精选数据到可扩展模型：面向藏语的稠密与混合专家大语言模型持续预训练](<papers/藏语/2026-ACL-moe-从精选数据到可扩展模型：面向藏语的稠密与混合专家大语言模型持续预训练/从精选数据到可扩展模型：面向藏语的稠密与混合专家大语言模型持续预训练.md>) | 持续预训练、MoE、藏语、Qwen2.5 | [中文笔记](<papers/藏语/2026-ACL-moe-从精选数据到可扩展模型：面向藏语的稠密与混合专家大语言模型持续预训练/从精选数据到可扩展模型：面向藏语的稠密与混合专家大语言模型持续预训练.md>) |
 
+### 满文/满语（Manchu）
+
+| 年份 | 会议 | 论文 | 关键词 | 笔记 |
+|:---:|:---:|------|:------:|:----:|
+| 2026 | ACL Findings | [ManCC: Task-Anchored Benchmarks for Manchu-Classical Chinese Cross-Lingual Modeling](<papers/满文/2026-acl-finding-mancc/2026.findings-acl.1359.pdf>) | 满语、古文、跨语言建模、任务锚定型基准、低资源 | [中文笔记](<papers/满文/2026-acl-finding-mancc/ManCC.md>) |
+
 ### 腾讯混元 Hunyuan（工业界翻译模型）
 
 | 年份 | 会议 | 论文 | 关键词 | 笔记 |
@@ -74,6 +80,8 @@
 │   │   └── 2025-coling-uyghur-llm/
 │   ├── 藏语/                          # 藏语相关研究
 │   │   └── 2026-acl-moe-tibetan-cpt/
+│   ├── 满文/                          # 满语/满文相关研究
+│   │   └── 2026-acl-finding-mancc/
 │   ├── 腾讯HY/                        # 腾讯混元多语言翻译模型
 │   │   ├── 腾讯HY1.5/
 │   │   │   ├── HY-MT1.5-技术报告.md
@@ -105,6 +113,7 @@
 | `LLM-for-MT/` | 利用大语言模型（LLM）进行翻译的研究 |
 | `Data-Augmentation/` | 数据增强方法（回译、前向翻译、合成数据等） |
 | `藏语/` | 藏语大语言模型与机器翻译研究 |
+| `满文/` | 满语/满文方向专题研究 |
 | `NMT-Basics/` | 神经机器翻译基础方法与综述 |
 
 > 💡 如果现有分类无法涵盖新论文，可以自行创建新的子目录。
@@ -191,6 +200,10 @@ papers/Domain-Adaptation/
 | `RAGAS` | Advancing RAG for Persian (2025) |
 | `文档摘要索引` | Advancing RAG for Persian (2025) |
 | `<ins>embedding微调</ins>` | Advancing RAG for Persian (2025) |
+| `满语` | ManCC (2026) |
+| `古文` | ManCC (2026) |
+| `跨语言建模` | ManCC (2026) |
+| `任务锚定型基准` | ManCC (2026) |
 
 ---
 
